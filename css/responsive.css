@@ -1,0 +1,482 @@
+/* ========================================
+   RESPONSIVE DESIGN
+   ======================================== */
+
+/* Large Desktop (1920px+) */
+@media (min-width: 1920px) {
+    html {
+        font-size: 18px;
+    }
+    
+    .section-title {
+        font-size: 6rem;
+    }
+    
+    .hero-title {
+        font-size: 8rem;
+    }
+}
+
+/* Desktop (1200px - 1919px) */
+@media (max-width: 1919px) and (min-width: 1200px) {
+    .scene-content {
+        padding: var(--space-3xl);
+    }
+    
+    .combos-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .offers-showcase {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Laptop (992px - 1199px) */
+@media (max-width: 1199px) and (min-width: 992px) {
+    html {
+        font-size: 15px;
+    }
+    
+    .scene-content {
+        grid-template-columns: 1fr 1fr;
+        gap: var(--space-2xl);
+    }
+    
+    .hero-burger {
+        max-width: 350px;
+    }
+    
+    .burger-card {
+        padding: var(--space-2xl);
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .combos-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .offers-showcase {
+        grid-template-columns: 1fr;
+        max-width: 600px;
+    }
+}
+
+/* Tablet Landscape (768px - 991px) */
+@media (max-width: 991px) and (min-width: 768px) {
+    html {
+        font-size: 14px;
+    }
+    
+    .scene-content {
+        grid-template-columns: 1fr;
+        text-align: center;
+        padding: var(--space-2xl);
+    }
+    
+    .hero-text {
+        order: 2;
+    }
+    
+    .hero-product {
+        order: 1;
+    }
+    
+    .hero-subtitle {
+        margin: 0 auto;
+    }
+    
+    .burger-card {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    
+    .card-info {
+        text-align: center;
+    }
+    
+    .card-badge {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    .burger-image {
+        max-width: 300px;
+    }
+    
+    .combos-grid {
+        grid-template-columns: 1fr;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    
+    .scene-indicators {
+        right: var(--space-lg);
+    }
+    
+    .brand-footer {
+        flex-direction: column;
+        gap: var(--space-md);
+        text-align: center;
+    }
+}
+
+/* Tablet Portrait (576px - 767px) */
+@media (max-width: 767px) and (min-width: 576px) {
+    html {
+        font-size: 13px;
+    }
+    
+    .scene-content {
+        padding: var(--space-xl);
+    }
+    
+    .hero-title {
+        font-size: clamp(2.5rem, 6vw, 5rem);
+    }
+    
+    .hero-burger {
+        max-width: 280px;
+    }
+    
+    .ring-1 {
+        width: 300px;
+        height: 300px;
+    }
+    
+    .ring-2 {
+        width: 400px;
+        height: 400px;
+    }
+    
+    .ring-3 {
+        width: 500px;
+        height: 500px;
+    }
+    
+    .burger-card {
+        padding: var(--space-xl);
+    }
+    
+    .burger-image {
+        max-width: 250px;
+    }
+    
+    .combo-card {
+        padding: var(--space-xl);
+    }
+    
+    .offer-card {
+        padding: var(--space-2xl);
+    }
+    
+    .scene-indicators {
+        display: none;
+    }
+}
+
+/* Mobile (320px - 575px) */
+@media (max-width: 575px) {
+    html {
+        font-size: 12px;
+    }
+    
+    .scene {
+        min-height: 100vh;
+    }
+    
+    .scene-content {
+        padding: var(--space-lg);
+        gap: var(--space-xl);
+    }
+    
+    .hero-title {
+        font-size: clamp(2rem, 8vw, 3.5rem);
+        line-height: 1;
+    }
+    
+    .hero-subtitle {
+        font-size: var(--text-base);
+    }
+    
+    .hero-product {
+        display: none;
+    }
+    
+    .section-title {
+        font-size: clamp(2rem, 6vw, 3.5rem);
+    }
+    
+    .section-subtitle {
+        font-size: var(--text-base);
+    }
+    
+    .burger-card {
+        position: relative;
+        top: auto;
+        left: auto;
+        transform: none !important;
+        grid-template-columns: 1fr;
+        text-align: center;
+        padding: var(--space-xl);
+        opacity: 0;
+        visibility: hidden;
+    }
+    
+    .burger-card.active {
+        opacity: 1;
+        visibility: visible;
+    }
+    
+    .card-badge {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    .burger-image {
+        max-width: 200px;
+        margin: 0 auto;
+    }
+    
+    .burger-name {
+        font-size: var(--text-2xl);
+    }
+    
+    .burger-desc {
+        font-size: var(--text-sm);
+    }
+    
+    .burger-price {
+        font-size: var(--text-2xl);
+    }
+    
+    .nav-btn {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .nav-btn svg {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .combos-grid {
+        grid-template-columns: 1fr;
+        padding: 0 var(--space-lg);
+    }
+    
+    .combo-card {
+        padding: var(--space-lg);
+    }
+    
+    .combo-visual {
+        height: 180px;
+    }
+    
+    .combo-main-img {
+        max-height: 100%;
+    }
+    
+    .combo-name {
+        font-size: var(--text-xl);
+    }
+    
+    .combo-items li {
+        font-size: var(--text-sm);
+    }
+    
+    .old-price {
+        font-size: var(--text-base);
+    }
+    
+    .new-price {
+        font-size: var(--text-2xl);
+    }
+    
+    .offers-showcase {
+        grid-template-columns: 1fr;
+        padding: 0 var(--space-lg);
+    }
+    
+    .offer-card {
+        padding: var(--space-xl);
+    }
+    
+    .timer-display {
+        gap: var(--space-xs);
+    }
+    
+    .time-unit,
+    .date-unit {
+        min-width: 50px;
+        padding: var(--space-sm) var(--space-md);
+    }
+    
+    .time-unit .num {
+        font-size: var(--text-2xl);
+    }
+    
+    .separator {
+        font-size: var(--text-xl);
+    }
+    
+    .offer-badge {
+        font-size: var(--text-3xl);
+        padding: var(--space-sm) var(--space-lg);
+    }
+    
+    .offer-title {
+        font-size: var(--text-2xl);
+    }
+    
+    .offer-desc {
+        font-size: var(--text-base);
+    }
+    
+    .offer-cta {
+        font-size: var(--text-base);
+        padding: var(--space-md) var(--space-xl);
+    }
+    
+    .brand-footer {
+        padding: var(--space-md) var(--space-lg);
+        flex-direction: column;
+        gap: var(--space-sm);
+    }
+    
+    .brand-logo {
+        font-size: var(--text-xl);
+    }
+    
+    .social-proof {
+        flex-direction: column;
+        gap: var(--space-xs);
+    }
+    
+    .rating {
+        font-size: var(--text-lg);
+    }
+    
+    .review-count,
+    .location-info {
+        font-size: var(--text-xs);
+    }
+    
+    .scene-indicators {
+        display: none;
+    }
+    
+    /* Hide decorative elements on mobile for performance */
+    .gradient-orb {
+        opacity: 0.3;
+    }
+    
+    .floating-element {
+        display: none;
+    }
+    
+    .sparkle {
+        display: none;
+    }
+}
+
+/* Small Mobile (320px - 374px) */
+@media (max-width: 374px) {
+    html {
+        font-size: 11px;
+    }
+    
+    .loader-logo {
+        font-size: 2rem;
+    }
+    
+    .loader-bar {
+        width: 250px;
+    }
+    
+    .burger-card {
+        padding: var(--space-md);
+    }
+    
+    .combo-visual {
+        height: 150px;
+    }
+}
+
+/* Landscape Orientation on Mobile */
+@media (max-width: 767px) and (orientation: landscape) {
+    .scene {
+        min-height: 100vh;
+    }
+    
+    .scene-content {
+        grid-template-columns: 1fr;
+    }
+    
+    .hero-product {
+        display: none;
+    }
+    
+    .burger-card {
+        max-height: 90vh;
+        overflow-y: auto;
+    }
+}
+
+/* Ultra Wide Screens (2560px+) */
+@media (min-width: 2560px) {
+    html {
+        font-size: 20px;
+    }
+    
+    .container-max {
+        max-width: 1800px;
+    }
+}
+
+/* Print Styles */
+@media print {
+    .loader,
+    .scene-indicators,
+    .burger-nav,
+    .brand-footer {
+        display: none;
+    }
+    
+    .scene {
+        position: relative;
+        opacity: 1;
+        visibility: visible;
+        page-break-after: always;
+    }
+    
+    .gradient-orb,
+    .floating-element,
+    .sparkle {
+        display: none;
+    }
+}
+
+/* High Contrast Mode */
+@media (prefers-contrast: high) {
+    :root {
+        --color-primary: #FF8800;
+        --color-secondary: #FFFF00;
+    }
+    
+    .burger-card,
+    .combo-card,
+    .offer-card {
+        border-width: 2px;
+    }
+}
+
+/* Dark Mode (already default, but defined for completeness) */
+@media (prefers-color-scheme: dark) {
+    /* Already using dark theme by default */
+}
+
+/* Light Mode Override (if needed) */
+@media (prefers-color-scheme: light) {
+    /* Keep dark theme for brand consistency */
+}

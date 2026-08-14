@@ -1,0 +1,27 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bunGrad1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#D4A574"/>
+      <stop offset="100%" style="stop-color:#C4956A"/>
+    </linearGradient>
+    <linearGradient id="meatGrad1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B4513"/>
+      <stop offset="100%" style="stop-color:#6B3410"/>
+    </linearGradient>
+  </defs>
+  <!-- Top Bun -->
+  <ellipse cx="200" cy="100" rx="140" ry="60" fill="url(#bunGrad1)"/>
+  <circle cx="160" cy="85" rx="3" ry="5" fill="#F5DEB3"/>
+  <circle cx="200" cy="70" rx="3" ry="5" fill="#F5DEB3"/>
+  <circle cx="240" cy="85" rx="3" ry="5" fill="#F5DEB3"/>
+  <!-- Bacon -->
+  <path d="M70 130 Q120 125 170 135 Q220 125 270 135 Q320 125 330 135 L330 145 Q280 135 230 145 Q180 135 130 145 Q80 135 70 145 Z" fill="#C44"/>
+  <!-- Lettuce -->
+  <path d="M60 150 Q100 140 150 155 Q200 145 250 155 Q300 140 340 155 L340 165 Q300 150 250 165 Q200 155 150 165 Q100 150 60 165 Z" fill="#4CAF50"/>
+  <!-- Cheese -->
+  <path d="M70 170 L330 170 L330 185 Q200 195 70 185 Z" fill="#FFC107"/>
+  <!-- Meat Patty -->
+  <ellipse cx="200" cy="210" rx="135" ry="40" fill="url(#meatGrad1)"/>
+  <!-- Bottom Bun -->
+  <ellipse cx="200" cy="260" rx="140" ry="50" fill="url(#bunGrad1)"/>
+</svg>

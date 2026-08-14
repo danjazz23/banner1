@@ -1,0 +1,55 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="baconGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B4513"/>
+      <stop offset="100%" style="stop-color:#A0522D"/>
+    </linearGradient>
+    <linearGradient id="cheeseGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFD700"/>
+      <stop offset="100%" style="stop-color:#FFA500"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Bottom bun -->
+  <ellipse cx="200" cy="260" rx="140" ry="35" fill="#D2691E"/>
+  
+  <!-- Onion rings -->
+  <ellipse cx="200" cy="240" rx="130" ry="8" fill="#DDA0DD" opacity="0.8"/>
+  <ellipse cx="200" cy="235" rx="120" ry="6" fill="#DDA0DD" opacity="0.6"/>
+  
+  <!-- BBQ sauce drips -->
+  <path d="M150 225 Q160 240 170 225 Q180 240 190 225 Q200 240 210 225 Q220 240 230 225 Q240 240 250 225" 
+        fill="#8B4513" opacity="0.9"/>
+  
+  <!-- Double patty -->
+  <ellipse cx="200" cy="210" rx="135" ry="25" fill="url(#baconGrad)"/>
+  <ellipse cx="200" cy="190" rx="135" ry="25" fill="url(#baconGrad)"/>
+  
+  <!-- Melted cheddar cheese -->
+  <path d="M160 175 Q180 190 200 175 Q220 190 240 175 L245 185 Q225 200 200 185 Q175 200 155 185 Z" 
+        fill="url(#cheeseGrad)"/>
+  
+  <!-- Triple bacon strips -->
+  <path d="M140 165 Q160 175 180 165 Q200 175 220 165 Q240 175 260 165" 
+        stroke="#8B4513" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M145 155 Q165 165 185 155 Q205 165 225 155 Q245 165 265 155" 
+        stroke="#A0522D" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M135 175 Q155 185 175 175 Q195 185 215 175 Q235 185 255 175" 
+        stroke="#8B4513" stroke-width="8" fill="none" stroke-linecap="round"/>
+  
+  <!-- Top bun -->
+  <ellipse cx="200" cy="130" rx="140" ry="45" fill="#DEB887"/>
+  <ellipse cx="200" cy="125" rx="130" ry="35" fill="#D2691E"/>
+  
+  <!-- Sesame seeds -->
+  <circle cx="160" cy="115" r="3" fill="#F5DEB3"/>
+  <circle cx="180" cy="110" r="3" fill="#F5DEB3"/>
+  <circle cx="200" cy="108" r="3" fill="#F5DEB3"/>
+  <circle cx="220" cy="110" r="3" fill="#F5DEB3"/>
+  <circle cx="240" cy="115" r="3" fill="#F5DEB3"/>
+  <circle cx="175" cy="125" r="3" fill="#F5DEB3"/>
+  <circle cx="225" cy="125" r="3" fill="#F5DEB3"/>
+  
+  <!-- Shine on top bun -->
+  <ellipse cx="180" cy="115" rx="20" ry="8" fill="#FFF" opacity="0.3"/>
+</svg>

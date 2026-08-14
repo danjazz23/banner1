@@ -1,0 +1,23 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bunGrad3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#D4A574"/>
+      <stop offset="100%" style="stop-color:#C4956A"/>
+    </linearGradient>
+    <linearGradient id="meatGrad3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#A0522D"/>
+      <stop offset="100%" style="stop-color:#8B4513"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="200" cy="100" rx="140" ry="60" fill="url(#bunGrad3)"/>
+  <ellipse cx="140" cy="85" rx="15" ry="8" fill="#228B22" transform="rotate(-30 140 85)"/>
+  <ellipse cx="200" cy="75" rx="15" ry="8" fill="#228B22"/>
+  <ellipse cx="260" cy="85" rx="15" ry="8" fill="#228B22" transform="rotate(30 260 85)"/>
+  <path d="M70 140 L330 140 L330 160 Q200 175 70 160 Z" fill="#FFD700"/>
+  <path d="M70 165 Q120 160 170 170 Q220 160 270 170 Q320 160 330 170 L330 180 Q280 170 230 180 Q180 170 130 180 Q80 170 70 180 Z" fill="#DC143C"/>
+  <ellipse cx="200" cy="210" rx="135" ry="40" fill="url(#meatGrad3)"/>
+  <polygon points="100,220 120,240 80,240" fill="#FFA500"/>
+  <polygon points="180,225 200,245 160,245" fill="#FFA500"/>
+  <polygon points="260,220 280,240 240,240" fill="#FFA500"/>
+  <ellipse cx="200" cy="270" rx="140" ry="50" fill="url(#bunGrad3)"/>
+</svg>
