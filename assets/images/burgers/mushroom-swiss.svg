@@ -1,0 +1,61 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="mushGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#D2B48C"/>
+      <stop offset="100%" style="stop-color:#8B7355"/>
+    </linearGradient>
+    <linearGradient id="swissGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFACD"/>
+      <stop offset="100%" style="stop-color:#F0E68C"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Bottom bun -->
+  <ellipse cx="200" cy="260" rx="140" ry="35" fill="#D2691E"/>
+  
+  <!-- Garlic aioli drips -->
+  <path d="M150 230 Q160 245 170 230 Q180 245 190 230 Q200 245 210 230 Q220 245 230 230 Q240 245 250 230" 
+        fill="#FFF8DC" opacity="0.9"/>
+  
+  <!-- Caramelized onions -->
+  <ellipse cx="200" cy="220" rx="125" ry="10" fill="#DAA520" opacity="0.8"/>
+  <path d="M160 218 Q180 225 200 218 Q220 225 240 218" stroke="#DAA520" stroke-width="3" fill="none"/>
+  
+  <!-- Swiss cheese with holes -->
+  <path d="M160 200 Q180 215 200 200 Q220 215 240 200 L245 210 Q225 225 200 210 Q175 225 155 210 Z" 
+        fill="url(#swissGrad)"/>
+  <circle cx="180" cy="208" r="6" fill="#F0E68C" opacity="0.6"/>
+  <circle cx="210" cy="212" r="5" fill="#F0E68C" opacity="0.6"/>
+  <circle cx="195" cy="218" r="4" fill="#F0E68C" opacity="0.6"/>
+  
+  <!-- Beef patty -->
+  <ellipse cx="200" cy="185" rx="135" ry="25" fill="#8B4513"/>
+  
+  <!-- Sautéed mushrooms -->
+  <ellipse cx="170" cy="165" rx="25" ry="12" fill="url(#mushGrad)"/>
+  <ellipse cx="200" cy="160" rx="30" ry="14" fill="url(#mushGrad)"/>
+  <ellipse cx="230" cy="165" rx="25" ry="12" fill="url(#mushGrad)"/>
+  <ellipse cx="185" cy="172" rx="20" ry="10" fill="url(#mushGrad)"/>
+  <ellipse cx="215" cy="172" rx="20" ry="10" fill="url(#mushGrad)"/>
+  
+  <!-- Mushroom details -->
+  <path d="M165 162 Q170 168 175 162" stroke="#654321" stroke-width="2" fill="none"/>
+  <path d="M195 157 Q200 163 205 157" stroke="#654321" stroke-width="2" fill="none"/>
+  <path d="M225 162 Q230 168 235 162" stroke="#654321" stroke-width="2" fill="none"/>
+  
+  <!-- Top bun -->
+  <ellipse cx="200" cy="130" rx="140" ry="45" fill="#DEB887"/>
+  <ellipse cx="200" cy="125" rx="130" ry="35" fill="#D2691E"/>
+  
+  <!-- Sesame seeds -->
+  <circle cx="160" cy="115" r="3" fill="#F5DEB3"/>
+  <circle cx="180" cy="110" r="3" fill="#F5DEB3"/>
+  <circle cx="200" cy="108" r="3" fill="#F5DEB3"/>
+  <circle cx="220" cy="110" r="3" fill="#F5DEB3"/>
+  <circle cx="240" cy="115" r="3" fill="#F5DEB3"/>
+  <circle cx="175" cy="125" r="3" fill="#F5DEB3"/>
+  <circle cx="225" cy="125" r="3" fill="#F5DEB3"/>
+  
+  <!-- Shine on top bun -->
+  <ellipse cx="180" cy="115" rx="20" ry="8" fill="#FFF" opacity="0.3"/>
+</svg>

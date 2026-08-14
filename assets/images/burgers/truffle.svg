@@ -1,0 +1,30 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bunGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#D4A574"/>
+      <stop offset="100%" style="stop-color:#C4956A"/>
+    </linearGradient>
+    <linearGradient id="meatGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#5D2E0C"/>
+      <stop offset="100%" style="stop-color:#3D1E08"/>
+    </linearGradient>
+  </defs>
+  <!-- Top Bun (Brioche) -->
+  <ellipse cx="200" cy="90" rx="140" ry="55" fill="url(#bunGrad2)"/>
+  <!-- Truffle Shavings -->
+  <circle cx="160" cy="75" rx="4" ry="3" fill="#2D1F10"/>
+  <circle cx="180" cy="68" rx="5" ry="4" fill="#2D1F10"/>
+  <circle cx="200" cy="65" rx="4" ry="3" fill="#2D1F10"/>
+  <circle cx="220" cy="68" rx="5" ry="4" fill="#2D1F10"/>
+  <circle cx="240" cy="75" rx="4" ry="3" fill="#2D1F10"/>
+  <!-- Brie Cheese -->
+  <path d="M70 120 L330 120 L330 140 Q200 150 70 140 Z" fill="#F5F5DC"/>
+  <!-- Caramelized Onions -->
+  <path d="M80 145 Q120 140 160 150 Q200 140 240 150 Q280 140 320 150 L320 160 Q280 150 240 160 Q200 150 160 160 Q120 150 80 160 Z" fill="#B8860B"/>
+  <!-- Wagyu Patty -->
+  <ellipse cx="200" cy="190" rx="135" ry="40" fill="url(#meatGrad2)"/>
+  <!-- Arugula -->
+  <path d="M60 200 Q100 190 140 205 Q180 195 220 205 Q260 195 300 205 Q340 195 350 205 L350 215 Q310 205 270 215 Q230 205 190 215 Q150 205 110 215 Q70 205 60 215 Z" fill="#5A7D3A"/>
+  <!-- Bottom Bun -->
+  <ellipse cx="200" cy="260" rx="140" ry="50" fill="url(#bunGrad2)"/>
+</svg>
