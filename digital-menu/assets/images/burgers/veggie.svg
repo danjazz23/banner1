@@ -1,0 +1,25 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bunGrad4" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#D4A574"/>
+      <stop offset="100%" style="stop-color:#C4956A"/>
+    </linearGradient>
+    <linearGradient id="veggieGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#6B8E23"/>
+      <stop offset="100%" style="stop-color:#556B2F"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="200" cy="100" rx="140" ry="60" fill="url(#bunGrad4)"/>
+  <circle cx="160" cy="85" rx="3" ry="5" fill="#654321"/>
+  <circle cx="200" cy="70" rx="3" ry="5" fill="#654321"/>
+  <circle cx="240" cy="85" rx="3" ry="5" fill="#654321"/>
+  <path d="M70 135 L330 135 L330 155 Q200 165 70 155 Z" fill="#F5DEB3"/>
+  <ellipse cx="130" cy="175" rx="50" ry="20" fill="#90EE90"/>
+  <ellipse cx="200" cy="170" rx="50" ry="20" fill="#90EE90"/>
+  <ellipse cx="270" cy="175" rx="50" ry="20" fill="#90EE90"/>
+  <ellipse cx="140" cy="195" rx="25" ry="12" fill="#B22222"/>
+  <ellipse cx="200" cy="190" rx="25" ry="12" fill="#B22222"/>
+  <ellipse cx="260" cy="195" rx="25" ry="12" fill="#B22222"/>
+  <ellipse cx="200" cy="230" rx="135" ry="40" fill="url(#veggieGrad)"/>
+  <ellipse cx="200" cy="280" rx="140" ry="50" fill="url(#bunGrad4)"/>
+</svg>
